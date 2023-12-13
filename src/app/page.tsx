@@ -2,10 +2,10 @@ import React from "react";
 
 // Components
 import Header from "../components/Header";
-import HomeSection from "@/pages/HomeSection";
-import SkillsSection from "@/pages/SkillsSection";
-import AboutMeSection from "@/pages/AboutMeSection";
-import ContactSection from "@/pages/ContactSection";
+import HomeSection from "@/components/HomeSection";
+import SkillsSection from "@/components/SkillsSection";
+import AboutMeSection from "@/components/AboutMeSection";
+import ContactSection from "@/components/ContactSection";
 // import ProjectSection from '@/pages/ProjectsSection'
 
 export default function MainPage() {
