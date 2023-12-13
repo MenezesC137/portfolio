@@ -10,7 +10,7 @@ export default function AboutMe() {
   return (
     <section
       id="about"
-      className="flex h-screen w-full items-center relative text-white-main"
+      className="flex sm:h-fit md:h-screen w-full items-center relative text-white-main"
     >
       <div className="bg-gray-main sm:h-full md:h-2/3 w-full absolute z-0" />
       <section className="flex flex-col z-10 sm:px-4 md:px-40 h-full w-full justify-center gap-8 pt-20">
@@ -39,7 +39,7 @@ export default function AboutMe() {
                 essential for a future career as a developer.
               </p>
             </section>
-            <section className="flex flex-col gap-4 sm:w-full md:w-1/2">
+            <section className="flex flex-col gap-4 sm:w-full md:w-1/2 sm:mb-10">
               <p className="font-semibold text-4xl">Experience</p>
               <p className="text-xs">
                 Since February 2022, I've been employed at a software

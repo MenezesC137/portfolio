@@ -30,7 +30,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="flex flex-col h-screen w-full relative text-white-main"
+      className="flex flex-col sm:h-fit md:h-screen w-full relative text-white-main"
     >
       <div className="bg-gray-main h-full w-1/2 absolute z-0 right-0 " />
       <section className="flex flex-col z-10 sm:px-4 md:px-40 h-full w-full justify-center gap-8 pt-20">
@@ -59,7 +59,7 @@ export default function ContactSection() {
           </div>
         </section>
       </section>
-      <div className="flex w-full bg-black-main z-10 justify-between border-t-2 border-black-light sm:px-4 md:px-40 py-6">
+      <div className="flex w-full bg-black-main z-10 justify-between border-t-2 border-black-light sm:px-4 md:px-40 py-6 md:text-base sm:text-xs">
         <p>Designed by Carlos Santos</p>
         <p>© {moment().format("YYYY")} All Right Reserved</p>
       </div>

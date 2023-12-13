@@ -20,8 +20,12 @@ export default function HomePage() {
         />
       </div>
       <article className="flex flex-col px-4 w-full h-full justify-center text-white-main gap-4 ">
-        <p className="!text-2xl !font-bold !text-red-dark">Hi i`m Carlos!</p>
-        <p className="!text-5xl !font-semibold">Fullstack developer</p>
+        <p className="sm:text-xl md:text-2xl font-bold !text-red-dark">
+          Hi i`m Carlos!
+        </p>
+        <p className="sm:text-4xl md:text-5xl font-semibold">
+          Fullstack developer
+        </p>
         <p className="sm:text-xs md:text-sm">
           I'm a full stack developer with experience in design and main focus on
           the front-end. My passion for design allows me to create attractive
