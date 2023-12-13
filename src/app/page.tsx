@@ -6,7 +6,7 @@ import HomeSection from "@/pages/HomeSection";
 import SkillsSection from "@/pages/SkillsSection";
 import AboutMeSection from "@/pages/AboutMeSection";
 import ContactSection from "@/pages/ContactSection";
-// import ProjectSection from '@/Pages/ProjectsSection'
+// import ProjectSection from '@/pages/ProjectsSection'
 
 export default function MainPage() {
   return (
