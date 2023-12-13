@@ -21,7 +21,7 @@ export default function HomePage() {
       </div>
       <article className="flex flex-col px-4 w-full h-full justify-center text-white-main gap-4 ">
         <p className="sm:text-xl md:text-2xl font-bold !text-red-dark">
-          Hi i`m Carlos!
+          Hi I'm Carlos!
         </p>
         <p className="sm:text-4xl md:text-5xl font-semibold">
           Fullstack developer
