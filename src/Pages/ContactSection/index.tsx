@@ -16,7 +16,7 @@ export default function ContactSection() {
     {
       icon: <FaLinkedinIn size={50} />,
       name: "LinkedIn",
-      link: "hhttps://www.linkedin.com/in/carlos-eduardo-m-santos-8ba0b01aa/",
+      link: "https://www.linkedin.com/in/carlos-eduardo-m-santos-8ba0b01aa/",
       nickName: "Carlos Santos",
     },
     {
