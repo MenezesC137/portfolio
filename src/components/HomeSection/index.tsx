@@ -10,7 +10,7 @@ import headerPhoto from "../../assets/headerPhoto.png";
 export default function HomePage() {
   return (
     <section id="home" className="flex h-[86vh] w-full items-center md:px-40">
-      <div className="flex flex-col w-full h-full">
+      <div className="flex flex-col w-full h-full sm:pr-0 md:pr-20">
         <Image
           className="object-cover w-[1000px] h-[1000px]"
           src={headerPhoto}
