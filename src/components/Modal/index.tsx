@@ -60,45 +60,78 @@ function ModalContent({
         onClick={() => close()}
       />
       <div className="flex justify-center items-center h-full">
-        <div className="relative flex flex-col w-fit h-fit rounded-md p-10 bg-gradient-to-tr to-red-dark from-black-main">
+        <div className="relative flex flex-col w-fit sm:h-full md:h-fit rounded-md p-10 bg-gradient-to-tr to-red-dark from-black-main">
           <button className="absolute top-4 right-4" onClick={() => close()}>
             <IoMdClose size={30} />
           </button>
-          <div className="flex flex-row gap-10">
+          <div className="flex sm:flex-col-reverse md:flex-row gap-10">
             <iframe
+              className="rounded-md sm:hidden md:block"
               width="500"
               height="325"
               src={urlVideo}
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             />
+            <div className="md:hidden sm:block ">
+              <iframe
+                className="rounded-md w-full h-[250px]"
+                width="500"
+                height="325"
+                src={urlVideo}
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              />
+              <div className="flex flex-row gap-4 items-center justify-center pt-10">
+                {frontRepository && (
+                  <a
+                    href={frontRepository}
+                    target="_blank"
+                    className="bg-gradient-to-tr to-red-dark from-red-main text-white-main text-base rounded-[2px] px-4 py-2 w-fit hover:from-red-dark hover:to-red-main transition-all duration-300 ease-in-out"
+                  >
+                    Front end
+                  </a>
+                )}
+                {backRepository && (
+                  <a
+                    href={backRepository}
+                    target="_blank"
+                    className="bg-gradient-to-tr to-red-dark from-red-main text-white-main text-base rounded-[2px] px-4 py-2 w-fit hover:from-red-dark hover:to-red-main transition-all duration-300 ease-in-out"
+                  >
+                    Back end
+                  </a>
+                )}
+              </div>
+            </div>
             <div
               style={{ width: "full" }}
-              className={`border border-white-main`}
+              className={`border border-white-main sm:hidden md:block`}
             />
             <section className="gap-4 flex flex-col">
               <h1 className="font-semibold text-4xl">{title}</h1>
-              <div className="flex flex-col h-full justify-between">
-                <p className="w-[400px] text-sm">{subtitle}</p>
-                <div className="flex flex-row gap-4">
-                  {frontRepository && (
-                    <a
-                      href={frontRepository}
-                      target="_blank"
-                      className="bg-gradient-to-tr to-red-dark from-red-main text-white-main text-base rounded-[2px] px-4 py-2 w-fit hover:from-red-dark hover:to-red-main transition-all duration-300 ease-in-out"
-                    >
-                      Front end
-                    </a>
-                  )}
-                  {backRepository && (
-                    <a
-                      href={backRepository}
-                      target="_blank"
-                      className="bg-gradient-to-tr to-red-dark from-red-main text-white-main text-base rounded-[2px] px-4 py-2 w-fit hover:from-red-dark hover:to-red-main transition-all duration-300 ease-in-out"
-                    >
-                      Back end
-                    </a>
-                  )}
+              <div className="flex flex-col h-full justify-between gap-6 ">
+                <p className="sm:w-full md:w-[400px] text-sm">{subtitle}</p>
+                <div className="sm:hidden md:block">
+                  <div className="flex flex-row gap-4 ">
+                    {frontRepository && (
+                      <a
+                        href={frontRepository}
+                        target="_blank"
+                        className="bg-gradient-to-tr to-red-dark from-red-main text-white-main text-base rounded-[2px] px-4 py-2 w-fit hover:from-red-dark hover:to-red-main transition-all duration-300 ease-in-out"
+                      >
+                        Front end
+                      </a>
+                    )}
+                    {backRepository && (
+                      <a
+                        href={backRepository}
+                        target="_blank"
+                        className="bg-gradient-to-tr to-red-dark from-red-main text-white-main text-base rounded-[2px] px-4 py-2 w-fit hover:from-red-dark hover:to-red-main transition-all duration-300 ease-in-out"
+                      >
+                        Back end
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             </section>
