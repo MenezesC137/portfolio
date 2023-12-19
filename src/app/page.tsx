@@ -6,7 +6,7 @@ import HomeSection from "@/components/HomeSection";
 import SkillsSection from "@/components/SkillsSection";
 import AboutMeSection from "@/components/AboutMeSection";
 import ContactSection from "@/components/ContactSection";
-// import ProjectSection from '@/pages/ProjectsSection'
+import ProjectSection from "@/components/ProjectsSection";
 
 export default function MainPage() {
   return (
@@ -15,7 +15,7 @@ export default function MainPage() {
       <section className="flex flex-col h-full items-center justify-center overflow-scroll pt-16">
         <HomeSection />
         <SkillsSection />
-        {/* <ProjectSection /> */}
+        <ProjectSection />
         <AboutMeSection />
         <ContactSection />
       </section>
