@@ -9,7 +9,7 @@ export default function HomePage() {
   const [startLeft, setStartLeft] = useState(false);
   const [startRight, setStartRight] = useState(false);
   const [startFinal, setStartFinal] = useState(false);
-  const [reduceMotion, setReduceMotion] = useState(false);
+  const [reduceMotion, setReduceMotion] = useState(teste);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
