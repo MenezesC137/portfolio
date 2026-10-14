@@ -12,7 +12,7 @@ export default function MainPage() {
   return (
     <main className="bg-black-main flex h-fit w-fit">
       <Header />
-      <section className="flex flex-col h-full items-center justify-center overflow-scroll pt-16">
+      <section className="flex flex-col h-full items-center justify-center overflow-scroll ">
         <HomeSection />
         <SkillsSection />
         <ProjectSection />
