@@ -49,7 +49,7 @@ export default function HomePage() {
   return (
     <section
       id="home"
-      className="relative isolate flex border-b border-gray-600 min-h-[700px] w-full overflow-hidden text-white md:h-[86vh] md:min-h-[600px] md:max-h-[900px] px-24"
+      className="relative isolate flex border-b border-gray-600 min-h-[700px] w-full overflow-hidden text-white md:h-[86vh] md:min-h-[600px] md:max-h-[900px] sm:px-4 md:px-24"
     >
       <div
         className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_70%_55%,rgba(220,38,55,0.10),transparent_40%)]"
@@ -123,7 +123,7 @@ export default function HomePage() {
             instant={reduceMotion}
           />
         </div>
-        <div className="pointer-events-none relative mt-8 flex h-[280px] items-end justify-center sm:h-[360px] md:absolute md:bottom-0 md:right-[5%] md:mt-0 md:h-[92%] md:w-[53%] lg:right-[7%] lg:w-[50%]">
+        <div className="sm:hidden md:block pointer-events-none relative mt-8 flex h-[280px] items-end justify-center sm:h-[360px] md:absolute md:bottom-0 md:right-[5%] md:mt-0 md:h-[92%] md:w-[53%] lg:right-[7%] lg:w-[50%]">
           <div
             className="absolute bottom-[12%] left-[20%] h-[65%] w-[65%] rounded-full bg-red-600/10 blur-[90px]"
             aria-hidden="true"

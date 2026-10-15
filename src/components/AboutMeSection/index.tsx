@@ -6,23 +6,23 @@ export default function AboutMe() {
   return (
     <section
       id="about"
-      className="relative w-full overflow-hidden bg-[#101112] text-white px-24 border-b border-gray-600"
+      className="relative w-full overflow-hidden bg-[#101112] text-white sm:px-4 md:px-24 border-b border-gray-6"
     >
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_75%_65%,rgba(220,38,55,0.06),transparent_45%)]" />
 
       <div className="relative z-10 mx-auto flex w-full flex-col gap-10 px-6 py-24 ">
-        <div className="flex w-full items-center gap-5">
+        <div className="flex w-full items-center md:justify-start sm:justify-center gap-5">
           <h2
             id="projects-title"
             className="text-sm font-bold uppercase tracking-[0.3em] text-red-dark sm:text-base"
           >
             About Me
           </h2>
-          <div className="border-b sm:w-40" />
+          <div className="border-b sm:w-40 sm:hidden md:block" />
         </div>
         <div className="flex flex-col justify-between gap-10 xl:flex-row xl:items-center">
           <div className="max-w-[1000px]">
-            <h2 className="text-4xl font-bold leading-[1.05] tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
+            <h2 className="text-4xl font-bold leading-[1.05] tracking-tight sm:text-4xl md:text-6xl lg:text-7xl">
               Engineering mindset.
               <br />
               Real-world experience.

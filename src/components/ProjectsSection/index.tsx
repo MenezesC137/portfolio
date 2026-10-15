@@ -13,16 +13,16 @@ export default function ProjectSection() {
     <section
       id="projects"
       aria-labelledby="projects-title"
-      className="flex h-fit w-full flex-col items-center justify-center gap-10 px-5 sm:px-24 py-16 border-b border-gray-600"
+      className="flex h-fit w-full flex-col items-center justify-center gap-10 sm:px-4 md:px-24 py-16 border-b border-gray-600"
     >
-      <div className="flex w-full items-center gap-5">
+      <div className="flex w-full items-center md:justify-start sm:justify-center gap-5">
         <h2
           id="projects-title"
           className="text-sm font-bold uppercase tracking-[0.3em] text-red-dark sm:text-base"
         >
           Projects
         </h2>
-        <div className="border-b sm:w-40" />
+        <div className="border-b sm:w-40 sm:hidden md:block" />
       </div>
       <div className="grid w-full grid-cols-1 justify-items-center gap-8 md:grid-cols-2 xl:grid-cols-3">
         {ProjectsMock.map((project) => (
