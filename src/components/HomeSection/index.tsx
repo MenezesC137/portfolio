@@ -49,13 +49,13 @@ export default function HomePage() {
   return (
     <section
       id="home"
-      className="relative isolate flex min-h-[700px] w-full overflow-hidden bg-[#101112] text-white md:h-[86vh] md:min-h-[600px] md:max-h-[900px]"
+      className="relative isolate flex border-b border-gray-600 min-h-[700px] w-full overflow-hidden text-white md:h-[86vh] md:min-h-[600px] md:max-h-[900px] px-24"
     >
       <div
         className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_70%_55%,rgba(220,38,55,0.10),transparent_40%)]"
         aria-hidden="true"
       />
-      <div className="mx-auto grid w-full max-w-[1600px] grid-cols-1 items-center px-6 pb-8 pt-28 sm:px-10 md:grid-cols-12 md:px-16 md:py-16 lg:px-24">
+      <div className="mx-auto grid w-full max-w-[1600px] grid-cols-1 items-center md:grid-cols-12 ">
         <article className="relative z-20 flex flex-col items-start gap-5 md:col-span-6 lg:col-span-6">
           <div className="flex w-full items-center gap-5">
             <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-dark sm:text-base">

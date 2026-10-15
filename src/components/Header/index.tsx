@@ -38,8 +38,8 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 bg-[#101112]/95 text-white backdrop-blur-md">
-      <div className="mx-auto flex w-full max-w-[1600px] items-center justify-between px-6 py-3 sm:px-10 md:px-16 lg:px-24">
+    <header className="fixed inset-x-0 top-0 z-50 bg-[#101112]/95 text-white backdrop-blur-md px-24">
+      <div className="mx-auto flex w-full items-center justify-between py-3">
         <a
           href="#home"
           aria-label="DEDEV - Home"

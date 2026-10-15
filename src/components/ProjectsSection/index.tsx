@@ -13,7 +13,7 @@ export default function ProjectSection() {
     <section
       id="projects"
       aria-labelledby="projects-title"
-      className="flex h-fit w-full flex-col items-center justify-center gap-10 px-5 py-16 md:px-16 lg:px-24"
+      className="flex h-fit w-full flex-col items-center justify-center gap-10 px-5 sm:px-24 py-16 border-b border-gray-600"
     >
       <div className="flex w-full items-center gap-5">
         <h2
