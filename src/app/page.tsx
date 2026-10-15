@@ -3,18 +3,16 @@ import React from "react";
 // Components
 import Header from "../components/Header";
 import HomeSection from "@/components/HomeSection";
-import SkillsSection from "@/components/SkillsSection";
 import AboutMeSection from "@/components/AboutMeSection";
 import ContactSection from "@/components/ContactSection";
 import ProjectSection from "@/components/ProjectsSection";
 
 export default function MainPage() {
   return (
-    <main className="bg-black-main flex h-fit w-fit">
+    <main className="flex min-h-screen bg-[#101112] ">
       <Header />
-      <section className="flex flex-col h-full items-center justify-center overflow-scroll pt-16">
+      <section className="flex flex-col w-full">
         <HomeSection />
-        <SkillsSection />
         <ProjectSection />
         <AboutMeSection />
         <ContactSection />

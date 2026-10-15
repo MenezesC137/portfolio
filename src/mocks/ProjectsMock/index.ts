@@ -1,14 +1,27 @@
-import mapa from "../../assets/mapa.png";
+import mapa from "../../assets/projectTechOnMap.png";
+import espacoLeticiaPessoa from "../../assets/projectLeticia.png";
+import personalGiovanna from "../../assets/projectPersonal.png";
 
 export const ProjectsMock = [
   {
     id: 1,
+    title: "Tech on map",
     image: mapa,
-    frontRepository: "https://github.com/MenezesC137/techonmap_react",
-    backRepository: "https://github.com/MenezesC137/techonmap_node",
-    subtitle:
-      "Project created for a test, where I showcased my experience with Google Maps integration. It involves a simple GPS system where, upon registration, users input their current address and desired destination. The Google Maps API then plots the route to the destination.",
-    title: "Tech on map 🌎",
-    urlVideo: "https://www.youtube.com/embed/WAVG1rGvERw?si=1WaGQdkf3FVIQXZa",
+    projectUrl: "https://www.youtube.com/watch?v=WAVG1rGvERw",
+    description: "GPS system project with Google Maps integration.",
+  },
+  {
+    id: 2,
+    title: "Espaço Letícia Pessoa",
+    image: espacoLeticiaPessoa,
+    projectUrl: "https://leticia-pessoa.vercel.app/",
+    description: "Website developed to promote the work of a physiotherapy.",
+  },
+  {
+    id: 3,
+    title: "Personal Giovanna",
+    image: personalGiovanna,
+    projectUrl: "https://personal-giovanna.vercel.app/",
+    description: "Website developed to promote the work of a personal trainer.",
   },
 ];
