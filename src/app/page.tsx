@@ -14,7 +14,6 @@ export default function MainPage() {
       <Header />
       <section className="flex flex-col h-full items-center justify-center overflow-scroll ">
         <HomeSection />
-        <SkillsSection />
         <ProjectSection />
         <AboutMeSection />
         <ContactSection />

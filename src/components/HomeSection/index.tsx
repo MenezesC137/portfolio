@@ -61,10 +61,7 @@ export default function HomePage() {
             <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-dark sm:text-base">
               Hi, I'm Carlos
             </p>
-            <span
-              className="h-px w-20 bg-white/40 sm:w-36"
-              aria-hidden="true"
-            />
+            <div className="w-40 border-b border-white/40" />
           </div>
           <h1 className="text-5xl font-extrabold leading-[0.92] tracking-[-0.06em] sm:text-6xl md:text-7xl xl:text-8xl">
             Full-stack
