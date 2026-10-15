@@ -88,7 +88,7 @@ export default function ContactSection() {
                   aria-label={`${social.name}: ${social.username}`}
                   className="group flex min-w-0 flex-col items-center"
                 >
-                  <span className="flex h-14 w-14 items-center justify-center rounded-full border border-white/40 transition-all duration-300 group-hover:border-red-500 group-hover:bg-red-500/10 group-hover:text-red-500">
+                  <span className="flex h-14 w-14 items-center justify-center rounded-full border border-gray-600 transition-all duration-300 group-hover:border-red-500 group-hover:bg-red-500/10 group-hover:text-red-500">
                     {social.icon}
                   </span>
 
@@ -104,7 +104,7 @@ export default function ContactSection() {
           </div>
         </div>
       </div>
-      <footer className="relative z-10 flex flex-col gap-3 border-t border-gray-600 px-6 py-6 text-xs text-gray-500 sm:flex-row sm:items-center sm:justify-between sm:px-10 lg:px-12 sm:text-sm">
+      <footer className=" relative z-10 flex md:flex-row sm:flex-col gap-3 border-t border-gray-600 px-6 py-6 text-xs text-gray-500  sm:items-center sm:justify-between sm:px-10 lg:px-12 sm:text-sm">
         <p>
           Designed & developed by{" "}
           <span className="text-gray-300">Carlos Santos</span>
