@@ -9,9 +9,9 @@ import ProjectSection from "@/components/ProjectsSection";
 
 export default function MainPage() {
   return (
-    <main className="flex h-fit w-full bg-[#101112]">
+    <main className="flex min-h-screen bg-[#101112] ">
       <Header />
-      <section className="flex flex-col h-full w-full items-center justify-center overflow-scroll">
+      <section className="flex flex-col w-full">
         <HomeSection />
         <ProjectSection />
         <AboutMeSection />

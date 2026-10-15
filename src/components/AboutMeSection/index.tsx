@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <section
       id="about"
-      className="relative w-full overflow-hidden bg-[#101112] text-white px-24"
+      className="relative w-full overflow-hidden bg-[#101112] text-white px-24 border-b border-gray-600"
     >
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_75%_65%,rgba(220,38,55,0.06),transparent_45%)]" />
 
