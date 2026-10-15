@@ -13,7 +13,7 @@ export default function SkillsSection() {
       className="flex sm:h-fit md:h-screen w-full relative text-white-main"
     >
       <div className="bg-gray-main h-full w-1/2 absolute z-0" />
-      <section className="flex flex-col z-10 sm:px-4 md:sm:px-4 md:px-40 h-full w-full gap-8 pt-20">
+      <section className="flex flex-col z-10 sm:px-2 md:sm:px-2 md:px-40 h-full w-full gap-8 pt-20">
         <p className="text-red-dark font-black text-4xl">Skills</p>
         <div className="flex justify-center items-center flex-wrap sm:gap-4 md:gap-10 overflow-auto">
           {SkillMock.map((skill) => (

@@ -39,7 +39,7 @@ export default function ContactSection() {
       className="relative flex w-full flex-col overflow-hidden bg-[#101112] text-white"
     >
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_20%_50%,rgba(220,38,55,0.045),transparent_50%)]" />
-      <div className="relative z-10 mx-auto flex w-full max-w-[1800px] flex-1 flex-col justify-center sm:px-4 md:px-24 py-20 ">
+      <div className="relative z-10 mx-auto flex w-full max-w-[1800px] flex-1 flex-col justify-center sm:px-2 md:px-24 py-20 ">
         <div className="flex w-full items-center md:justify-start sm:justify-center gap-5">
           <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-dark sm:text-base">
             Contact

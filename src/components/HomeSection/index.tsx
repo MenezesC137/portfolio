@@ -49,7 +49,7 @@ export default function HomePage() {
   return (
     <section
       id="home"
-      className="relative isolate flex border-b border-gray-600 min-h-[700px] w-full overflow-hidden text-white md:h-[86vh] md:min-h-[600px] md:max-h-[900px] sm:px-4 md:px-24"
+      className="relative isolate flex border-b border-gray-600 min-h-[700px] w-full overflow-hidden text-white md:h-[86vh] md:min-h-[600px] md:max-h-[900px] sm:px-2 md:px-24"
     >
       <div
         className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_70%_55%,rgba(220,38,55,0.10),transparent_40%)]"
